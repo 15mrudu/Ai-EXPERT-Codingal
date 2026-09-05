@@ -4,7 +4,7 @@ from colorama import init, Fore
 
 init(autoreset=True)
 
-try: df = pd.read_csv("imdb_top_1000.csv")
+try: df = pd.read_csv("D:\Ai EXPERT Codingal\Lesson 1\imdb_top_1000.csv")
 except FileNotFoundError:
     print(Fore.RED + "Error: The file 'imdb_top_1000.csv' was not found."); raise SystemExit
 
