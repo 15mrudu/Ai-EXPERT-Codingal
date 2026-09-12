@@ -1,4 +1,4 @@
-print("Hello Aidan!")
-# Greetings to a boy
-
-print("7+5 =",7+5)
+# input ()
+x = input("Enter value for X : ")
+y = input("Enter value for Y : ")
+print("X + Y =") 
